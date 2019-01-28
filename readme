@@ -1,0 +1,3 @@
+本章为ribbon-consume添加断路器：Spring Cloud Hystrix
+有了断路器，则提供服务的client如果出错或延迟，则ribbon消费者会马上获得错误响应，而不是漫长等待直至跳转至白页
+启动本消费者后，请访问：http://localhost:9000/ribbon-consumer
